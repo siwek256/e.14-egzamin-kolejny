@@ -1,0 +1,94 @@
+html {
+    font-family: Georgia;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+
+}
+body {
+    font-family: Georgia;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#prawygorny {
+    text-align: center;
+    background-color: rgb(197, 85, 160);
+    width: 50%;
+    height: 180px;
+    float: right;
+}
+#lewygorny {
+    text-align: center;
+    background-color: rgb(197, 85, 160);
+    width: 50%;
+    height: 180px;
+    float: left;
+}
+#baner {
+    background-color: rgb(246, 226, 222);
+    text-align: center;
+    height: 100px;
+    padding: 10px;
+    width: 100%;
+}
+#prawyglowny {
+    background-color: rgb(197, 85, 160);
+    color: white;
+    height: 400px;
+    width: 50%;
+    float: right;
+}
+#lewyglowny {
+    background-color: rgb(197, 85, 160);
+    color: white;
+    height: 400px;
+    width: 50%;
+    float: left;
+}
+
+#footer {
+    background-color: rgb(246, 226, 222);
+    text-align: center;
+    height: 100px;
+    padding: 10px;
+}
+#glownygorny {
+    width: 100%;
+    height: 180px;
+}
+#glownyglowny {
+    width: 100%;
+    height: 400px;
+
+}
+#zamowienie {
+    background-image: url(cukierki1.png);
+    padding-right: 70px;
+    padding-bottom: 120px;
+    font-size: 150%;
+
+}
+a:link {
+    text-decoration: none;
+}
+table {
+    border: 2px solid blue;
+    margin: 20px;
+    padding: 10px;
+
+}
+td {
+    border: 2px solid blue;
+    margin: 20px;
+    padding: 10px;
+    
+}
+h2 {
+    size: 200%;
+    letter-spacing: 10px;
+    
+}

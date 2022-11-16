@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styl9.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabryka żelków</title>
+</head>
+
+<body>
+    <div id="glownygorny">
+        <div id="lewygorny">
+            <a href="index.html"><img src="cukierki2.png" alt="Logo fabryki"></a>
+        </div>
+        <div id="prawygorny">
+            <a href="zamowienie.html" id="zamowienie">Zamówienie</a>
+        </div>
+    </div>
+    <div id="baner">
+        <h2>
+            Zamów nasz produkt
+        </h2>
+    </div>
+    <div id="glownyglowny">
+        <div id="lewyglowny">
+            <h1>Oferta</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <td>
+                            Kształty
+                        </td>
+                        <td>
+                            Kolory
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <ol>
+                                <li>
+                                    Miś
+                                </li>
+                                <li>
+                                    Żabka
+                                </li>
+                                <li>
+                                    Serce
+                                </li>
+                            </ol>
+                        </td>
+                        <td>
+                            <ol>
+                                <li>
+                                    Czerwony
+                                </li>
+                                <li>
+                                    Niebieski
+                                </li>
+                                <li>
+                                    Żółty
+                                </li>
+                                <li>
+                                    Inny
+                                </li>
+                            </ol>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="prawyglowny">
+            <form>
+                <label for="ksztalt" id="ksztalt-label">Podaj numer kształtu</label>
+                <input type="number" id="ksztalt-number" min="1" max="3"><br>
+                <label id="rgb">Skomponuj swój kolor, podaj RGB</label>
+                <label for="r-rgb" id="r-rgb-label">R:</label>
+                <input type="number" name="r-rgb" id="r-rgb" min="0" max="255">
+                <label for="g-rgb" id="g-rgb">G:</label>
+                <input type="number" name="g-rgb" id="g-rgb" min="0" max="255">
+                <label for="b-rgb" id="b-rgb">B:</label>
+                <input type="number" name="b-rgb" id="b-rgb" min="0" max="255"><br>
+                <button type="submit" name="submit">Zamów</button><br>
+                <label id="wybrany-ksztalt">Wybrany kształt</label><br>
+                <button type="button" id="wybrany-kolor-przycisk">Wybrany kolor</button>
+            </form>
+        </div>
+    </div>
+    <footer id="footer">
+        Autor strony: <i>Siwek</i>
+    </footer>
+</body>
+
+</html>
