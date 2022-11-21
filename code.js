@@ -7,12 +7,15 @@ function zamow() {
         nazwaksztaltu = "miś";
     } else if (numerksztaltu == 2) {
         nazwaksztaltu = "żabka";
-    } else {
+    } else if (numerksztaltu == 3){
         nazwaksztaltu = "serce";
+    } else {
+        nazwaksztaltu = "no coś nie działa"
     }
     r_rgb = document.getElementById("r-rgb").value
     g_rgb = document.getElementById("g-rgb").value
     b_rgb = document.getElementById("b-rgb").value
+    text_kolor = document.getElementById("kolor-text").value
     console.log(r_rgb)
     console.log(g_rgb)
     console.log(b_rgb)
