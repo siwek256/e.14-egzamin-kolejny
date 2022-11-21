@@ -75,7 +75,7 @@
         <div id="prawyglowny">
             
                 <label for="ksztalt" id="ksztalt-label">Podaj numer kształtu</label>
-                <input type="number" id="ksztalt-number" min="1" max="3" value="1"><br>
+                <input type="number" id="ksztalt-number" name="ksztalt-number" min="1" max="3" value="1"><br>
                 <label id="rgb">Skomponuj swój kolor, podaj RGB</label>
                 <label for="r-rgb" id="r-rgb-label">R:</label>
                 <input type="number" name="r-rgb" id="r-rgb" min="0" max="255" value="0">
@@ -98,14 +98,13 @@
        
         function zamow(){
             numerksztaltu = document.getElementById("ksztalt-number").value
-            if (numerksztaltu = 1) {
-                numerksztaltu = "miś";
-            }
-            if (numerksztaltu = 2) {
-                numerksztaltu = "żabka";
-            }
-            if (numerksztaltu = 3) {
-                numerksztaltu = "serce";
+            nazwaksztaltu = "nie umiesz programować :P"
+            if (numerksztaltu == 1) {
+                nazwaksztaltu = "miś";
+            } else if (numerksztaltu == 2) {
+                nazwaksztaltu = "żabka";
+            } else {
+                nazwaksztaltu = "serce";
             }
             r_rgb = document.getElementById("r-rgb").value
             g_rgb = document.getElementById("g-rgb").value
@@ -114,7 +113,8 @@
             console.log(g_rgb)
             console.log(b_rgb)
             console.log(numerksztaltu)
-            document.getElementById("wybrany-ksztalt").innerHTML = "Zamówiłeś żelka - " + numerksztaltu
+            console.log(nazwaksztaltu)
+            document.getElementById("wybrany-ksztalt").innerHTML = "Zamówiłeś żelka - " + nazwaksztaltu
             document.getElementById("wybrany-kolor-przycisk").style.color = 'rgb(' + r_rgb + ',' + g_rgb + ',' + b_rgb + ')';
             document.getElementById("wybrany-kolor-przycisk").style.backgroundColor = 'rgb(' + r_rgb + ',' + g_rgb + ',' + b_rgb + ')';
 
